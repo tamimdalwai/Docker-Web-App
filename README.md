@@ -1,16 +1,16 @@
 
-[![Forks][forks-shield]][https://github.com/tamimdalwai/Docker-Web-App]
+[![Forks][forks-shield]](https://github.com/tamimdalwai/Docker-Web-App)
 [![Stargazers][stars-shield]][https://stars.github.com/]
-[![Issues][issues-shield]][https://github.com/tamimdalwai/Docker-Web-App/issues]
+[![Issues][issues-shield]](https://github.com/tamimdalwai/Docker-Web-App/issues)
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/tamim-dalwai-66816a176/)
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/tamim-dalwai-66816a176/]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/tamim-dalwai-66816a176/)
 <br />
 
 <p align="center">
   <a href="#">
-    <img src="images/docker-engine.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/tamimdalwai/Docker-Web-App/blob/main/images/docker-engine.png" alt="Logo" width="80" height="80">
   </a>
 
 
@@ -20,7 +20,7 @@
     "Build, Ship and Run Any App, Anywhere"
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/">View Demo</a>
     ·
     <a href="https://github.com/tamimdalwai/Docker-Web-App/issues">Report Bug</a>
     ·
@@ -56,14 +56,13 @@
 
 ## About The Project
 
-<img src="images/screenshot.png" alt="Logo" width="" height="">
+<img src="https://github.com/tamimdalwai/Docker-Web-App/blob/main/images/screenshot.png" alt="Logo" width="" height="">
 
 ​		Docker is great containerization tool which provides user "Platfrom as a Service" (PaaS).A Docker WebApp is a lightweight  WebApp that includes feature to execute docker commands remotely from browser.This project focuses on UI/UX and easeness to admin user to perform docker tasks. Dynamic webinterface of this project makes it more attractive.
 
 ### Built With
 
 * [Apache Web Server](https://httpd.apache.org/)
-
 * [Docker](https://www.docker.com/)
 * [Ajax](https://www.w3schools.com/xml/ajax_intro.asp)
 * [HTML](https://www.w3schools.com/html/)
@@ -80,15 +79,10 @@ To get a local copy up and running follow these simple example steps.
 Docker need to be installed on the remote linux server.
 
 1. Docker
-
    * Docker command to install on Red Hat linux, CentOS, Fedora. 
-
      > `yum  install docker-ce`
-
 2. Apache Web Server
-
    * Apache Webserver need to installed in the remoted linux server.
-
      > `yum install httpd`
 
 ### Installation
@@ -112,14 +106,11 @@ cp -r ./www/cgi-bin/* /var/www/cgi-bin/
 ```
 
 4. Start the apache daemon and docker daemon
-
-` #systemctl start httpd` 
-
-`#systemctl start docker`
-
+```sh
+#systemctl start httpd
+#systemctl start docker
+```
 5. Check ip address where apache server is running and type the ip address in the address of browser...All Done!!!!!!!
-
-
 
 ## Usage
 
@@ -129,12 +120,9 @@ By using docker web app we can -
 * as it is deployed on top of apache server, it can be accessed from anywhere.
 * provides easeness to use and great ui experience.
 
-
-
 ## #TODO
 
 Yet this project has not fully completed yet, we can further enhance this web app by adding following features:
-
 * Get interactive Terminal of launched containers in web browser.
 * Create form to launch containers for non-it guys with inputs as follows:
   - Select Image
