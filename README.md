@@ -149,5 +149,5 @@ Contributions are what make the open source community such an amazing place to b
 
 Tamim Dalwai - tamimdalwai@gmail.com
 
-Project Link: [Click Here...](https://github.com/tamimdalwai/Docker-Web-App)
+Project Link - [Click Here...](https://github.com/tamimdalwai/Docker-Web-App)
 
