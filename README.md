@@ -2,7 +2,7 @@
 <p align="center">
     <a href="https://github.com/tamimdalwai/Docker-Web-App/pulse" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
-    <a href="https://twitter.com/intent/follow?screen_name=shields_io">
+    <a href="https://www.linkedin.com/in/tamim-dalwai-66816a176/">
         <img src="https://img.shields.io/badge/Linkedin-Get%20Connect-blue" alt="follow on Linkedin"></a>
 </p>
 
