@@ -1,5 +1,6 @@
 
-[![Forks][forks-shield]](https://github.com/tamimdalwai/Docker-Web-App)
+[![Forks][forks-shield]][https://github.com/tamimdalwai/Docker-Web-App]
+
 [![Stargazers][stars-shield]][https://stars.github.com/]
 [![Issues][issues-shield]](https://github.com/tamimdalwai/Docker-Web-App/issues)
 
