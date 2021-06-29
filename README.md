@@ -62,7 +62,7 @@
 
 * [Apache Web Server](https://httpd.apache.org/)
 * [Docker](https://www.docker.com/)
-* [Ajax](https://www.w3schools.com/xml/ajax_intro.asp)
+* [Python](https://www.python.org)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
 * [JavaScript](https://www.w3schools.com/js/default.asp)
