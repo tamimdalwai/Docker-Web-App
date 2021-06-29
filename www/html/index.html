@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Docker Web</title>
+</head>
+<body>    
+    <div class="dockerHeader">
+        <div class="dockerLogo"> DOCKER </div>
+    </div> 
+    <div class="main">
+     	 <div class="glass"> 
+              <div class="container">
+                  <div class="card">
+                     <div class="contain">
+                  	<h2 class="h2"></h2>
+                  	<h3 class="h3">Type your command here</h3>  
+                     <div>
+                       <input id="cmd_prompt" placeholder="Enter Command"/>
+		       	  <pre>
+           		     <div id="output_msg">Output
+                            </div>  
+                         </pre>
+                     </div>
+                </div>
+            </div>  
+	  <center><button onclick = dockerCmd() class="btn"> RUN </button></center>
+       </div>
+   </div>
+</div>
+<script>
+        function dockerCmd() {
+                // here xmlReq is a object from XMLHttpRequest() class
+                var inputValue;
+		inputValue = document.getElementById("cmd_prompt").value
+
+                var xhr = new XMLHttpRequest();
+                // here fasle means sync and true means async with AJAX
+                xhr.open("GET", "http://192.168.0.157/cgi-bin/home.py?x=" + inputValue, true);
+                xhr.send();
+
+		        // here  onload will take the return text from server [cgi-bin folder]
+                xhr.onload = function() {
+			var output = xhr.responseText;
+			document.getElementById("output_msg").style.display = "block"
+			document.getElementById("output_msg").innerHTML = output
+                }
+}
+</script>
+
+<div class = "footer">
+	<p>&copy; Copyright @2021 &diams; Developed By: Tamim Dalwai, Akash Kale, Nazim Dalwai</p>
+</div>
+
+</body>
+<html>
