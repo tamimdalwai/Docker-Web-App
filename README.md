@@ -18,7 +18,7 @@
     "Build, Ship and Run Any App, Anywhere"
     <br />
     <br />
-    <a href="https://github.com/">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=sfyFeTUSQUQ">View Demo</a>
     ·
     <a href="https://github.com/tamimdalwai/Docker-Web-App/issues">Report Bug</a>
     ·
